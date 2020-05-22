@@ -100,8 +100,8 @@
 		</plugins>
 	</build>
 	<scm>
-		<connection>git@github.com:sfg-beer-works/sfg-brewery-eureka.git</connection>
-		<developerConnection>git@github.com:sfg-beer-works/sfg-brewery-eureka.git</developerConnection>
+		<connection>scm:git:git@github.com:sfg-beer-works/sfg-brewery-eureka.git</connection>
+		<developerConnection>scm:git:git@github.com:sfg-beer-works/sfg-brewery-eureka.git</developerConnection>
 		<url>https://github.com/sfg-beer-works/sfg-brewery-eureka</url>
 		<tag>HEAD</tag>
 	</scm>
