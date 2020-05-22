@@ -99,5 +99,26 @@
 			</plugin>
 		</plugins>
 	</build>
+	<scm>
+		<connection>git@github.com:sfg-beer-works/sfg-brewery-eureka.git</connection>
+		<developerConnection>git@github.com:sfg-beer-works/sfg-brewery-eureka.git</developerConnection>
+		<url>https://github.com/sfg-beer-works/sfg-brewery-eureka</url>
+		<tag>HEAD</tag>
+	</scm>
 
+	<issueManagement>
+		<url>https://github.com/sfg-beer-works/sfg-beer-works/issues</url>
+		<system>GitHub</system>
+	</issueManagement>
+
+	<distributionManagement>
+		<snapshotRepository>
+			<id>ossrh</id>
+			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
+		</snapshotRepository>
+		<repository>
+			<id>ossrh</id>
+			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+		</repository>
+	</distributionManagement>
 </project>
