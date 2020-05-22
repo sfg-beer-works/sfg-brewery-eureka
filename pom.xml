@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.3.0.RELEASE</version>
-		<relativePath /> <!-- lookup parent from repository -->
+		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.github.sfg-beer-works</groupId>
 	<artifactId>sfg-brewery-eureka</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<name>sfg-brewery-eureka</name>
 	<description>Eureka Service Discovery</description>
 
@@ -99,26 +100,4 @@
 		</plugins>
 	</build>
 
-	<issueManagement>
-		<url>https://github.com/sfg-beer-works/sfg-beer-works/issues</url>
-		<system>GitHub</system>
-	</issueManagement>
-
-	<distributionManagement>
-		<snapshotRepository>
-			<id>ossrh</id>
-			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
-		</snapshotRepository>
-		<repository>
-			<id>ossrh</id>
-			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
-		</repository>
-	</distributionManagement>
-
-  <scm>
-	  <tag>HEAD</tag>
-	  <connection>git@github.com:sfg-beer-works/sfg-brewery-eureka.git</connection>
-	  <developerConnection>git@github.com:sfg-beer-works/sfg-brewery-eureka.git</developerConnection>
-	  <url>https://github.com/sfg-beer-works/sfg-brewery-eureka</url>
-  </scm>
 </project>
